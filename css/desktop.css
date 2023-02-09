@@ -2,4 +2,7 @@
     .container{
       max-width: 1440px;
     }
+    .our-team-list .team-item {
+       width: calc((100% - 72px) / 4);
+     }
   }
