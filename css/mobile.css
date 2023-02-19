@@ -11,14 +11,14 @@
     max-width: 264px;
   }
 
-  /*==========Header==========*/
-  .page-header {
+  /* Header */
+  .header {
     padding-bottom: 24px;
     padding-top: 22px;
     position: relative;
   }
 
-  /*==========Mobile-menu==========*/
+  /* Mobile-menu */
 
   .mob-menu-phone-number {
     font-size: 36px;
@@ -30,7 +30,7 @@
     max-width: 328px;
   }
 
-  /*==========Hero========== */
+  /* Hero */
 
   .hero {
     background-image: linear-gradient(
@@ -52,20 +52,20 @@
     }
   }
 
-  /*==========Feauture==========*/
+  /* Feauture */
 
   .feauture {
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
-  .feauture-item {
+  .feauture-link {
     display: none;
   }
 
   /* Doing */
 
-  .doings {
+  .doing {
     display: none;
   }
 
@@ -79,7 +79,7 @@
 
   /* Footer */
 
-  .subscribe-input {
+  .subscribe-imput {
     width: 100%;
   }
 
