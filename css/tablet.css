@@ -1,9 +1,259 @@
-@media screen and (min-width: 768px) {
-    .container{
-      max-width: 768px;
-    }
-    .our-team-list .team-item {
-    width: calc((100% - 24px) / 2);
-    width: 264px;
-   }
+@media screen and (max-width: 767px) {
+  .subscribe-imput {
+    width: 100%;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container.container-mini {
+    max-width: 582px;
+  }
+
+  /* Header */
+
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contacts {
+    font-style: normal;
+    margin-left: auto;
+  }
+
+  .mail {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-right: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .phone-number {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mail:hover,
+  .mail:focus {
+    color: var(--pressed-color);
+  }
+
+  .phone-number:hover,
+  .phone-number:focus {
+    color: var(--pressed-color);
+  }
+
+  .nav-link-text {
+    color: var(--pressed-color);
+  }
+
+  .nav-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--pressed-color);
+  }
+
+  .nav-link-studio::after,
+  .nav-link-portfolio::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--pressed-color);
+    color: var(--pressed-color);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 46px;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contacts-item {
+    display: flex;
+  }
+
+  .mail,
+  .phone-number {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+  }
+
+  /* Mobile menu */
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  /* Hero */
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/heroimage.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/Herotablet2x.jpg);
+    }
+  }
+
+  .hero-title {
+    min-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Feauture */
+
+  .feauture-link {
+    display: none;
+  }
+
+  .feauture-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .feauture-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
+
+  /* Doing */
+
+  .doing {
+    display: none;
+  }
+
+  /* Team */
+
+  .team {
+    padding-bottom: 96px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Customers */
+
+  .customers-item {
+    flex-basis: calc((100% - 6 * 30px) / 3);
+  }
+
+  .customers-link {
+    width: 168px;
+  }
+
+  /* Footer */
+
+  .footer-container {
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 72px;
+    align-items: baseline;
+  }
+
+  .ftr-logo-container {
+    margin-bottom: 0;
+  }
+
+  .ftr-logo {
+    justify-content: flex-start;
+  }
+
+  .social-media-container {
+    margin-bottom: 0;
+  }
+
+  .social-media-title,
+  .subscribe-title {
+    text-align: left;
+  }
+
+  .subscribe-container {
+    margin-right: 46px;
+    width: auto;
+  }
+
+  .subscribe-label-wrapper {
+    display: flex;
+  }
+
+  .subscribe-imput {
+    width: 264px;
+  }
+
+  .subscribe-link {
+    margin: 0;
+  }
+
+  /* Modal Window */
+  .modal {
+    width: 408px;
+    height: 586px;
+  }
+}

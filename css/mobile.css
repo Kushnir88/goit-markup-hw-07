@@ -1,14 +1,92 @@
-@media screen and (min-width: 320px ) {
-    .container{
-      max-width: 428px;
-    }
-    .our-team-list .team-item {
-      margin-bottom: 72px;
-      width: 264px;
-      margin-left: auto;
-      margin-right: auto;
-      row-gap: 24px;
-      column-gap: 24px;
-    }
-
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+
+  .container.container-mini {
+    max-width: 264px;
+  }
+
+  /*==========Header==========*/
+  .page-header {
+    padding-bottom: 24px;
+    padding-top: 22px;
+    position: relative;
+  }
+
+  /*==========Mobile-menu==========*/
+
+  .mob-menu-phone-number {
+    font-size: 36px;
+  }
+
+  .mob-menu-social-list {
+    display: flex;
+    gap: 56px;
+    max-width: 328px;
+  }
+
+  /*==========Hero========== */
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Herotablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/Herotablet2x.jpg);
+    }
+  }
+
+  /*==========Feauture==========*/
+
+  .feauture {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .feauture-item {
+    display: none;
+  }
+
+  /* Doing */
+
+  .doings {
+    display: none;
+  }
+
+  /* Team */
+
+  /* Customers */
+
+  .customers-link {
+    width: 190px;
+  }
+
+  /* Footer */
+
+  .subscribe-input {
+    width: 100%;
+  }
+
+  /* Modal Window */
+
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+}
