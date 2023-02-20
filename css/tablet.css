@@ -207,6 +207,9 @@
   .customers-link {
     width: 168px;
   }
+  .customers-list {
+    column-gap: 0;
+  }
 
   /* Footer */
 

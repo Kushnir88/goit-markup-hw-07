@@ -56,7 +56,8 @@
 
   .feauture {
     padding-top: 96px;
-    padding-bottom: 96px;
+    /* padding-bottom: 96px; */
+    padding-bottom: 24px;
   }
 
   .feauture-link {
@@ -81,6 +82,7 @@
 
   .subscribe-imput {
     width: 100%;
+    /* margin-right: 24px; */
   }
 
   /* Modal Window */
@@ -89,4 +91,16 @@
     width: 392px;
     height: 586px;
   }
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 72px;
+  column-gap: 16px;
+}
+
+.subscribe-field{
+  margin-right: 24px;
 }
