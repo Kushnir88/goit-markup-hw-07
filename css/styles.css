@@ -76,7 +76,9 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
+.no-scroll{
+  overflow: hidden;
+}
 /* STUDIO STYLES */
 
 /* Header */
