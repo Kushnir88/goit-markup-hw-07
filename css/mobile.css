@@ -82,12 +82,13 @@
 
   .subscribe-imput {
     width: 100%;
-    /* margin-right: 24px; */
+    margin-right: 24px;
   }
 
   /* Modal Window */
 
   .modal {
+    /* width: 100%; */
     width: 392px;
     height: 586px;
   }
@@ -102,5 +103,5 @@
 }
 
 .subscribe-field{
-  margin-right: 24px;
+  /* margin-right: 24px; */
 }
