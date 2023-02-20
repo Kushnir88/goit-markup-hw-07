@@ -154,6 +154,10 @@
   }
 
   /* Feauture */
+  .feauture {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 
   .feauture-link {
     display: none;
